@@ -15,7 +15,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.image_utils import get_resnet_model
 
 # GDrive Configuration (Update with your ID)
-FILE_ID = "YOUR_GOOGLE_DRIVE_FILE_ID_HERE" 
+FILE_ID = "1318HpyTgCkq4GD7U5KQ2S4GYYUum6UsY"
 MODEL_PATH = "models/image_model.pth"
 
 # --- 2. Smart Model Loader ---
