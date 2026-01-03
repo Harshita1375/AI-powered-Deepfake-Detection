@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-FILE_ID = "1O5PPVlhnK0LXT-jcaD1sbtRlVoseMGxb" 
+FILE_ID = "1O5PPVlhnK0LXT-jcaD1sbtRlVoseMGxb"
 MODEL_PATH = "models/image_model.pth"
 
 @st.cache_resource(show_spinner=False)
@@ -20,7 +20,7 @@ def download_and_load_model():
     if not os.path.exists("models"):
         os.makedirs("models")
     if not os.path.exists(MODEL_PATH):
-        url = f"https://drive.google.com/uc?id={FILE_ID}"
+        url = f"https://drive.google.com/u/0/uc?id={FILE_ID}&export=download&confirm=t"
         with st.status("🔗 Connecting to Secure Storage...", expanded=True) as status:
             st.write("Fetching AI weights from Google Drive...")
             try:
