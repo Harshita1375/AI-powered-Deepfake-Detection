@@ -8,7 +8,7 @@ import numpy as np
 st.set_page_config(page_title="Deepfake Shield AI", page_icon="🛡️", layout="wide")
 
 # --- 2. Smart Model Sync (Google Drive via Curl) ---
-FILE_ID = "1O5PPVlhnK0LXT-jcaD1sbtRlVoseMGxb" 
+FILE_ID = "1318HpyTgCkq4GD7U5KQ2S4GYYUum6UsY"
 MODEL_PATH = "models/image_model.pth"
 IS_CLOUD = os.getenv("STREAMLIT_RUNTIME_ENV") == "cloud"
 
