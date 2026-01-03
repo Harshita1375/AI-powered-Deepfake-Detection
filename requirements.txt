@@ -1,6 +1,7 @@
 streamlit
+gdown
 torch
 torchvision
-numpy<2
+numpy==1.26.4
 opencv-python-headless
 Pillow

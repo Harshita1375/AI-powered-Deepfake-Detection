@@ -11,6 +11,7 @@ __pycache__/
 data/
 models/*.pth
 models/*.h5
+.gitattributes
 
 # Video and large media
 *.mp4
